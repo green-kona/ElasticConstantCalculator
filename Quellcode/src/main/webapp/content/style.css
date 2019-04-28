@@ -1,0 +1,174 @@
+﻿/* Anpassung des Hauptbereiches */
+
+body {
+    padding: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    font-size: 180%;
+    /* line-height: 1.5; */
+    font-family: Arial, Helvetica;
+    margin: 10px;
+    padding: 5px;
+    overflow: auto;
+}
+
+/* Formatierung der Header Schriftart */
+
+#groß {
+    font-size: 150%;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+/* Formatierung der Navigationsleiste */
+
+#navigation {
+    background-color: #006EB7;
+    padding: 19px;
+    color: aliceblue;
+}
+
+.auf {
+    color: aliceblue;
+    padding: 19px;
+}
+
+.auf:link, .auf:visited {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.auf:hover {
+    background-color: aliceblue;
+    padding: 20px;
+    text-decoration: none;
+    border-style: none;
+    color: black;
+}
+
+a.linkbutton:link, a.linkbutton:visited {
+    background-color: #006EB7;
+    color: aliceblue;
+    border: 1px outset #006EB7;
+    padding: 3px;
+    margin: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 90%;
+}
+
+/* Link ohne Unterstrich mit angepasster Farbe*/
+
+.plainLink {
+    color: #006EB7;
+    text-decoration: none;
+}
+
+/* Formatierung des Submit-Buttons */
+
+#submitButton {
+    background-color: #006EB7;
+    border: none;
+    color: aliceblue;
+    padding: 15px 33px;
+    border: 1px outset #006EB7a2;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+/* Formatierung der Eingabe-Form */
+
+input[type=number] {
+    width: 100%;
+    padding: 8px 16px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    -moz-appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Container */
+
+#floatLinks {
+
+    margin-left: 5%;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+#ContainerLinks {
+    padding-left: 5%;
+    padding-right: 0;
+    width: 60%;
+}
+
+#ContainerRechts {
+    width: 40%;
+    align: center;
+}
+
+/* Bild & Bildunterschrift*/
+
+#Abbildung {
+    display: inline-block;
+    margin-right: 0%;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#Bild {
+    width: 80%;
+    height: auto;
+}
+
+#Quelle {
+    text-align: center;
+    width: 70%;
+}
+
+/* Ergebnistabelle formatieren*/
+
+#ergebnistabelle tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+#ergebnistabelle tr:hover {
+    background-color: aliceblue;
+}
+
+#ergebnistabelle td, ergebnistabelle th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#out1 {
+    text-align: center;
+    font-weight: bolder;
+    background-color: #006EB7;
+    color: aliceblue;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: large;
+}
+
+#out2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#out3 {
+    text-align: center;
+}
+
+
