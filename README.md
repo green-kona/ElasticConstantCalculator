@@ -1,2 +1,3 @@
 # ElasticConstantCalculator
-Tool for calculating elastic constants of anisotropic media
+Werkzeug zur Berechnung elastischer Konstanten und Anisotropieparametern von anisotropischen Medien
+(in Bearbeitung)
