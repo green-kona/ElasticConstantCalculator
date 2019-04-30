@@ -17,7 +17,7 @@
     <a class="auf" href="faq.jsp">FAQ</a>
     <a class="auf" href="kontakt.jsp">KONTAKT</a>
     <a class="auf"
-       href="https://www.researchgate.net/publication/328557790_Determining_the_influence_of_pressure_and_temperature_on_the_elastic_constants_of_anisotropic_rock_samples_using_ultrasonic_wave_techniques">WHITEPAPER</a>
+       href="https://www.researchgate.net/publication/328557790_Determining_the_influence_of_pressure_and_temperature_on_the_elastic_constants_of_anisotropic_rock_samples_using_ultrasonic_wave_techniques">LITERATUR</a>
     <a class="auf" href="https://github.com/green-kona/ElasticConstantCalculator">REPOSITORIUM</a>
     <a class="auf" href="impressum.jsp">DISCLAIMER & IMPRESSUM</a>
 </nav>
@@ -63,9 +63,9 @@
                         <td><input type="number" name="vszx" required="required" step="any" min=0></td>
                     </TR>
                     <TR>
-                        <td>VP45(XZ)[m/s]</td>
+                        <td>VP45(XZ) [m/s]</td>
                         <td><input type="number" name="vp45x" required="required" step="any" min=0></td>
-                        <td>VP45(YZ)[m/s]</td>
+                        <td>VP45(YZ) [m/s]</td>
                         <td><input type="number" name="vp45y" required="required" step="any" min=0></td>
                     </TR>
                     <TR>

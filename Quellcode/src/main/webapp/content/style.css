@@ -33,6 +33,7 @@ body {
 .auf {
     color: aliceblue;
     padding: 19px;
+    font-weight: 700;
 }
 
 .auf:link, .auf:visited {
