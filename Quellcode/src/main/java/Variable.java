@@ -1,5 +1,5 @@
 /**
- * Klasse zum erstellen von Variablen-Objekten mit den Attributen Geschwindigkeit oder Dichte.
+ * Klasse zum Erstellen von Variablen-Objekten mit den Attributen Geschwindigkeit oder Dichte.
  * Eingabeparameter werden durch einen Regex-String validiert und ansonsten nicht übergeben.
  * In diesem Fall wird Geschwindigkeit auf 0 gesetzt, was im Frontend eine Warnung auslöst.
  * Resultate werden zur Berechnung von Parametern genutzt.
