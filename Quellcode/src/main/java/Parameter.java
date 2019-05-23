@@ -1,5 +1,5 @@
 /**
- * Klasse zum erstellen von Parameter-Objekten mit den Attributen für elastische Konstanten oder Anisotropieparameter.
+ * Klasse zum Erstellen von Parameter-Objekten mit den Attributen für elastische Konstanten oder Anisotropieparameter.
  * Resultate werden durch ExpressionLanguage an das *.jsp Frontend weitergereicht.
  *
  * @author Jakob Mager.
